@@ -1,0 +1,171 @@
+#titulo {
+         color: fuchsia;
+}
+
+.texto{
+         color: chartreuse;
+}
+
+.especial{
+         color: blue;
+}
+
+div p {
+         color: red;
+}
+
+div h2{
+         color: blueviolet;
+}
+
+div h3, #subsubtitulo{
+         color: darkorange;
+}
+
+
+* {
+         font-size: 25px;  /*  esto es para cabiar el color de todo lo que se escriba */
+}
+ /*        color: lightsalmon;  y esto para el color pero si no esta definido el color
+
+*/
+.color{
+   color:rgb(250, 0, 0)
+}
+
+.color{
+   border: 7px rgb(172, 0, 0) outset;
+}
+/* dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hiden*/
+
+#titulo{
+      border-style: solid;
+      border-color: aqua;
+      border-radius: 3px;
+      border-width: 20px;
+}
+
+#fondo{
+/* esta es la manera larga de colocar el fondo */
+ color: orangered;
+   background-color:yellow;
+   
+   opacity: 0.;
+height: 100px;
+width: 700px;
+background-image: url('guitarra.png');
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-position: left;    /* left se coloca a la izqiuerda, center en el centro y right a la derecha, si le le coloca top se pone mas arriva center en el centro y abajo bottom */
+/* esta es la manera larga de colocar el fondo */
+}
+/* esta es la manera corta de colocar fondo */
+#fondo2{
+color: black;
+height: 200px;
+   background: url('monster.png') no-repeat left / 200px 200px;
+   background-color: green;
+}
+/* esta es la manera corta de hacerlo */
+
+.margen{
+
+   background-color: chocolate;
+margin: 5px;               /* ES LO QUE VA POR FUERA */
+padding: 20px;            /*  ES LO QUE VA POR DENTRO */
+border: solid 5px;        /* borde entre margin y padding */     
+height: 200px;            /* altura  */
+width: 100px;             /* anchura */
+overflow: scroll;        /* SCROLL para que se mueva con las barritas, HIDEN para que el texto no se salga y VISIBLE para que no importa si se sale */  
+outline: 7px solid red;  /*  borde que va fuera de overflow */    
+}
+
+.text{
+   font-family:'joan', sans-serif ; /* esto es para cambriar el estilo ded letras */
+   text-align: justify;
+   text-decoration: underline ;  /* lINE-THROUGH para que aparezca una linea en el medio del texto,
+    OVERLINE para que aparezca una linea arriva del texto,
+    UNDERLINE para que aparezca una linea por debajo del texto */
+    text-shadow: 7px 30px 3px blue; 
+/* Para la sombra del texto, el primero es para mever a la derecha, el segundo a abajo y el tercero es el difuminado  */
+
+}
+
+a:link{
+
+color: blueviolet;
+border: 7px double;
+}
+
+ a:visited{
+   color: aqua;
+} 
+a:hover{
+   color: brown;
+}
+a:active{
+   color: chartreuse;
+}
+
+ul{
+   background-color: aqua; 
+   list-style-type: disc;
+   /* padding-left: 0; */
+}
+
+table{
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th, td{
+   border: solid  white ;
+   padding: 5px;
+}
+
+th{
+   background-color: tomato;
+   color: white;
+   text-align: left;
+}
+
+tr:nth-child(even){
+   background-color: rgb(200,226 ,226 );
+}
+
+tr:hover{
+   background-color: gray;
+   cursor: pointer;
+}
+span{
+   display: block;
+   color: red;
+}
+
+.inline {
+    display: inline;
+}  
+
+#position{
+position: relative; /* relative la mueve donde quieras, FIXED te la deja estatira por toda la pantalla,STYCI es una mescla entre las dos */
+left: 25px;
+}
+
+
+.left{
+   float: left;
+   width: 100px;
+}
+
+.container{
+   height: 200px;
+}
